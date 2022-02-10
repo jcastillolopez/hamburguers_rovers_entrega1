@@ -39,3 +39,45 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+
+/*
+    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+html {
+    /*para que generar ancla animadas*/
+    scroll-behavior: smooth;
+}
+
+:root {
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuenteSecundaria: 'Handlee', cursive;
+    --marginGrid: 1em;
+    --colorPrincipal: #fa573a;
+    --colorSecundario: #21242e;
+    --fontSize: 1em;
+    --corse: 1100px;
+}
+
+.container {
+    max-width: var(--corse);
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: var(--fontSize);
+}

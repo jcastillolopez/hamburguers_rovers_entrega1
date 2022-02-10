@@ -1,0 +1,112 @@
+@import url(reset.css);
+
+/* inicio main*/
+main section {
+  padding: 2.5em 1em;
+}
+
+main section h2 {
+  color: black;
+  font-family: var(--fuenteSecundaria);
+  font-size: 2em;
+  text-align: center;
+}
+
+main section h2 span {
+  color: var(--colorPrincipal);
+}
+
+main section .underline {
+  position: relative;
+  width: 100px;
+  margin: 0 auto;
+  font-weight: 700;
+  color: var(--colorPrincipal);
+  margin-bottom: 1em;
+}
+
+main section .underline hr {
+  width: 100%;
+  border-color: var(--colorPrincipal);
+}
+
+main section .underline span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*inicio articulo */
+.flex {
+  display: flex;
+}
+main section h3 {
+  font-weight: 700;
+  font-size: 110%;
+}
+
+main section h4 {
+  color: var(--colorPrincipal);
+  margin: var(--marginGrid) 0;
+}
+
+main section p {
+  color: #777;
+  line-height: 1.1em;
+}
+main article {
+  width: 50%;
+  padding: 2em 1em;
+}
+
+main article figure {
+  margin: 0 auto;
+  position: relative;
+}
+main article figure div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(250, 87, 58, 0.7);
+  flex-direction: column;
+  display: flex;
+  width: 25%;
+  height: 35%;
+  justify-content: center;
+  align-items: center;
+}
+main article figure span {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+main article div {
+  padding: 1em;
+}
+.enlace {
+  display: block;
+  text-decoration: none;
+  color: var(--colorPrincipal);
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.enlace i {
+  font-size: 95%;
+}
+main article:last-child {
+  display: none;
+}
+
+/* final main*/
+
+/* media queries 1004px */
+
+@media (min-width: 62.75em) {
+  main article:last-child {
+    display: block;
+  }
+}
