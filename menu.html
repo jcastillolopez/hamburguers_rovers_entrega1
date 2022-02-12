@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburguers Rovers</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./css/commonStyles.css">
+    <link rel="stylesheet" href="./css/commonStyles.css">
     <link rel="stylesheet" href="./css/menu.css">
 </head>
 
@@ -59,15 +60,79 @@
                     </div>
                     <ul class="menu">
                         <!-- ul>li*4>a -->
-                        <li><a class="activo" href="index.html">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="activo" href="menu.html">Menu</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="equipo.html">Equipo</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <main></main>
+        <main>
+            <section id="todaysmenu">
+                <div class="container ">
+                    <h1>Today's<span>Menu</span></h1>
+                    <div class="underline">
+                        <hr noshade="">
+                        <span>X</span>
+                    </div>
+                    <div class="flex">
+                        <div class="navegador">
+                            <nav>
+                                <ul>
+                                    <li><a class="activo" href="">Breakfast</a></li>
+                                    <li><a class="activo" href="">Lunch</a></li>
+                                    <li><a class="activo" href="">Dinner</a></li>
+                                    <li><a class="activo" href="">Other</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="menudia">
+                                <h2>Today's Hot offers</h2>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Consequatur sequi sint aspernatur sunt? Eveniet, sunt!</p>
+                            </div>
+                        </div>
+                        <div class="articulos">
+                            <article>
+                                <img src="./images/t1.jpg" alt="hamburgesa">
+                                <div>
+                                    <h3>Chicken Burger With Chesse and Butter <span>$95</span> </h3>
+                                    <p>vegetable and chicken burger with extra butter
+
+                                    </p>
+                                    <a class="enlace" href="">Order Now <i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./images/t4.jpg" alt="cafe">
+                                <div>
+                                    <h3>Coffe and Tea with Milk and Chocolate <span>$30</span></h3>
+                                    <p>vegetable and chicken burger with extra butter
+
+                                    </p>
+                                    <a class="enlace" href="">Order Now <i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./images/t3.jpg" alt="pollo">
+                                <div>
+                                    <h3>Hot Pizza With Extra Chesse and Butter <span>$65</span></h3>
+                                    <p>vegetable and chicken burger with extra butter
+
+                                    </p>
+                                    <a class="enlace" href="">Order Now <i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer>
             <div class="container">
                 <p>Copyright &copy; 2022 - <a href="">Aviso Legal</a> - <a href="">Cookies</a></p>

@@ -1,1 +1,173 @@
-@import url(./reset.css);
+main .container{
+    text-align: center;   
+    color: white;
+   
+}
+main{
+    background-color: var(--colorSecundario);
+   
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;      
+}
+
+/****************************section inicio*************************/
+main .container h1{
+    font-size: 300%;
+    font-family: var(--fuenteSecundaria);
+    padding-top: 5%;
+}
+
+main .container span{
+    color: var(--colorPrincipal);    
+}
+.underline{    
+    color: var(--colorPrincipal); 
+    margin: 0 auto;  
+    position: relative;
+}
+.underline hr{
+   margin-top: 15px;
+    color: inherit;
+    width: 15%
+}
+.underline span{
+    position: absolute;
+    margin-top: -16px;
+    font-size: var(--fontSize);
+    font-weight: bold;
+    font-family: var(--fuenteSecundaria);
+    
+}
+/***********navegador inicio**********************************/
+.navegador{
+    width: 30%;
+    text-align: left;
+    margin-top: 4%;
+}
+.navegador li{
+    
+    margin-top: 10px;
+}
+
+.navegador li:hover{
+    background-color: var(--colorPrincipal);
+    border-radius: 5px;
+}
+
+.navegador a{
+    
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+/******************* nav fin ****************************/
+/******************* menudia  inicio *********************/
+.menudia{
+    margin-top: 35%;
+    
+}
+.menudia h2{
+   font-family: var(--fuentePrincipal);
+   font-weight: bold;
+}
+.menudia hr{
+    display: inline-block;
+    width: 50px;
+    color: var(--colorPrincipal); 
+    margin-top: 15px;
+}
+.menudia p{
+  
+    line-height: 25px;
+}
+
+
+
+
+/******************* menudia  fin *********************/
+
+/****************navegador fin************************/
+/****************articulos inicio******************************/
+.articulos  {
+    width: 70%;   
+    text-align: left; 
+    margin-top: 5%; 
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5% ; 
+    padding-left: 5%;  
+}
+.articulos div{
+    width: 70%;  
+    padding-left: 10%; 
+}
+article  img {
+    width: 30%;    
+}
+article h3 {
+    font-family: var(--fuentePrincipal);
+    font-weight: bold;  
+}
+.articulos span{
+    padding-left: 5%;
+}
+.articulos p{
+   padding-top: 5%;
+   padding-bottom: 10%;
+}
+.enlace{
+    color: var(--colorPrincipal);
+    font-weight: bold;
+    text-decoration: none;
+}
+ /******************** articulos fin************************/ 
+ /****************************section fin*************************/
+ /********************* media query 62.75 em inicio ***************/
+ @media (max-width: 62.75em){
+   .flex{
+      flex-direction: column;
+      margin: 0 auto;
+      width: 100%;
+      padding:  0px 10%;
+   }
+   section{
+       padding-bottom: 5%;
+   }
+   .main h1{
+       font-size: 100px;
+
+   }
+   .navegador{
+       width: 100%;
+       padding-top: 5px;
+   }
+   .navegador nav{
+       padding-bottom:10px ;
+   }
+   .menudia{
+    margin-top: 5%;
+    width: 100%;
+ }
+   .articulos{
+       width: 100%;
+   }
+   .articulos img{
+       width: 100%;
+       padding-bottom: 15px;
+   }
+   .articulos div{
+       width: 100%;
+       text-align: left;
+       padding-left: 0;      
+   }
+   .articulos p{
+       padding:10px 0%;
+   }
+    
+ }
